@@ -4,3 +4,4 @@ user.json
 node_modules
 quiz.sqlite
 data
+package-lock.json
