@@ -8,7 +8,7 @@ const exec = util.promisify(require("child_process").exec);
 const spawn = require("child_process").spawn;
 const fs = require("fs");
 
-const path_assignment = path.resolve(path.join(__dirname, "../", "quiz_express"));
+const path_assignment = path.resolve(path.join(__dirname, "../../", "quiz_express"));
 
 const TEST_PORT =  typeof process.env.TEST_PORT !== "undefined"?parseInt(process.env.TEST_PORT):3000;
 const WAIT =  typeof process.env.WAIT !== "undefined"?parseInt(process.env.WAIT):50000;
@@ -158,7 +158,7 @@ describe("Pruebas funcionales", function () {
       })
     log(`Lanzado el servidor en el puerto ${TEST_PORT}`);
     await new Promise(resolve => setTimeout(resolve, TIMEOUT));
-    browser.site = `http://localhost:${TEST_PORT}/`;
+    browser.site = `http://127.0.0.1:${TEST_PORT}/`;
       try{
           await browser.visit("/");
           browser.assert.status(200);
