@@ -6,8 +6,8 @@
     "info": {
         "githubURL": "ging-moocs/MOOC_quiz_mod2-express_generator_entrega",
         "serverUrl": "https://moocbot.dit.upm.es/",
-        "courseId": "1263",
-        "assignmentId": "557"
+        "courseId": "1602",
+        "assignmentId": "992"
     },
     "dependencies": {
         "autocorector": "^3.1.3"

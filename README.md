@@ -3,8 +3,10 @@
 <img  align="right" width="150" style="float: right;" src="https://miriadax.net/miriadax-theme/images/custom/logo_miriadax_new.svg">
 
 <br/><br/><br/>
+
 # Módulo 2: Creación del MVC de la Lista del Recurso de Preguntas, Autocarga, Paginación, Búsqueda...
-Versión: 19 de Junio de 2020
+
+Versión: 19 de Enero de 2024
 
 
 ## Objetivos
